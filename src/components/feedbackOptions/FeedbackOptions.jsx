@@ -1,26 +1,22 @@
-import PropTypes, {arrayOf} from 'prop-types';
+import PropTypes, { arrayOf } from 'prop-types';
+
+import { ButtonList, Button } from './feedbackOption.styled';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-	return (
-		<ul className="feedback__list">
-			{options.map(option => {
-				return (
-					<li key = {option}>
-						<button
-							key = {option}
-							className = "feedback__button"
-							data-rating = {option}
-							onClick = {onLeaveFeedback}
-						>
-							{option}
-						</button>
-					</li>
-					)
-				}
-			)}
-		</ul>
-	)
-}
+  return (
+    <ButtonList>
+      {options.map(option => {
+        return (
+          <li key={option}>
+            <Button key={option} data-rating={option} onClick={onLeaveFeedback}>
+              {option}
+            </Button>
+          </li>
+        );
+      })}
+    </ButtonList>
+  );
+};
 
 FeedbackOptions.propTypes = {
   options: arrayOf(PropTypes.string.isRequired),
