@@ -5,6 +5,8 @@ import FeedbackOptions from 'components/feedbackOptions';
 import Statistics from 'components/statistics';
 import Notification from 'components/notification';
 
+import { Container } from './App.styled';
+
 class App extends Component {
   state = {
     good: 0,
@@ -52,7 +54,7 @@ class App extends Component {
     const positivePercentage = this.countPositiveFeedbackPercentage();
 
     return (
-      <div>
+      <Container>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={['good', 'neutral', 'bad']}
@@ -72,7 +74,7 @@ class App extends Component {
             <Notification message="There is no feedback" />
           )}
         </Section>
-      </div>
+      </Container>
     );
   }
 }
