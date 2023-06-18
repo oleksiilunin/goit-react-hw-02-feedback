@@ -5,6 +5,7 @@ const StatisticList = styled.ul`
   flex-direction: column;
   gap: 8px;
   padding: 4px;
+  width: 230px;
 
   border-radius: 8px;
   border: 1px solid #cececf;

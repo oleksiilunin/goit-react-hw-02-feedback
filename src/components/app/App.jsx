@@ -16,6 +16,7 @@ class App extends Component {
 
   handleChoiceFeedback = e => {
     const rating = e.target.dataset.rating;
+    e.target.blur();
 
     switch (rating) {
       case 'good':

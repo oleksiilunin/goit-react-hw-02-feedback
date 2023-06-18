@@ -2,12 +2,18 @@ import styled from '@emotion/styled';
 
 const ButtonList = styled.ul`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 `;
 
 const ButtonContainer = styled.li`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border-radius: 8px;
-  width: 100%;
+  width: 72px;
 `;
 
 const Button = styled.button`
@@ -15,7 +21,7 @@ const Button = styled.button`
   justify-content: center;
   align-items: center;
   padding: 8px;
-  width: 64px;
+  width: 100%;
   border-radius: 8px;
   border: 1px solid #cececf;
 	
