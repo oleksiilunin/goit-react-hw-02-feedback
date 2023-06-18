@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-02-feedback/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-02-feedback/static/js/main.a2c130d3.js",
+    "main.css": "/goit-react-hw-02-feedback/static/css/main.8d5b2edf.css",
+    "main.js": "/goit-react-hw-02-feedback/static/js/main.6cafbd8f.js",
+    "static/media/open-sans-v35-latin-500.woff2": "/goit-react-hw-02-feedback/static/media/open-sans-v35-latin-500.75cd870c47267d0fad74.woff2",
+    "static/media/open-sans-v35-latin-regular.woff2": "/goit-react-hw-02-feedback/static/media/open-sans-v35-latin-regular.2e11868c8988e285301c.woff2",
+    "static/media/open-sans-v35-latin-600.woff2": "/goit-react-hw-02-feedback/static/media/open-sans-v35-latin-600.18b322a60320289ab2b8.woff2",
+    "static/media/open-sans-v35-latin-700.woff2": "/goit-react-hw-02-feedback/static/media/open-sans-v35-latin-700.50c16efb37ef13080c94.woff2",
     "index.html": "/goit-react-hw-02-feedback/index.html",
-    "main.7acaea2f.css.map": "/goit-react-hw-02-feedback/static/css/main.7acaea2f.css.map",
-    "main.a2c130d3.js.map": "/goit-react-hw-02-feedback/static/js/main.a2c130d3.js.map"
+    "main.8d5b2edf.css.map": "/goit-react-hw-02-feedback/static/css/main.8d5b2edf.css.map",
+    "main.6cafbd8f.js.map": "/goit-react-hw-02-feedback/static/js/main.6cafbd8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.a2c130d3.js"
+    "static/css/main.8d5b2edf.css",
+    "static/js/main.6cafbd8f.js"
   ]
 }
